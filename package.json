@@ -1,0 +1,25 @@
+{
+  "name": "note",
+  "version": "1.0.0",
+  "description": "",
+  "main": ".js",
+  "type": "module",
+  "scripts": {
+    "dev": "babel-node --experimental-json-modules ./index.js",
+    "1": "babel-node --experimental-json-modules ./1.js",
+    "2": "babel-node --experimental-json-modules ./2.js",
+    "3": "babel-node --experimental-json-modules ./3.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.3.3",
+    "@babel/node": "^7.13.13",
+    "@babel/preset-env": "^7.3.1",
+    "@babel/register": "^7.0.0",
+    "babel-loader": "^8.0.5",
+    "uuid": "^9.0.0"
+  }
+}
